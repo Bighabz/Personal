@@ -1,0 +1,75 @@
+
+/* Consistent Container Styles */
+.container, .custom-container {
+    background-color: #ffffff; /* white background for content inside the container */
+    margin-top: 20px; /* add some space at the top */
+    margin-bottom: 20px; /* add some space at the bottom */
+    padding: 20px; /* padding inside the container */
+    border-radius: 8px; /* rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* subtle shadow */
+}/* Custom Navigation Styles */
+
+/* Navbar background color and styling */
+.navbar {
+    background-color: #333; /* Dark background color */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.4); /* Add a subtle shadow for depth */
+}
+
+/* Navbar brand styling */
+.navbar-brand {
+    color: #fff; /* White color for brand text */
+    font-weight: bold; /* Make brand text bold */
+}
+
+/* Navbar link styling */
+.navbar-nav .nav-link {
+    color: #ddd; /* Light grey color for nav links */
+    margin-right: 10px; /* Spacing between nav links */
+    transition: color 0.3s; /* Smooth transition for color change */
+}
+
+/* Navbar link hover and focus styling */
+.navbar-nav .nav-link:hover, .navbar-nav .nav-link:focus {
+    color: #fff; /* White color on hover/focus */
+    background-color: #444; /* Slightly darker background on hover/focus */
+    border-radius: 4px; /* Rounded corners for links */
+}
+
+/* Responsive navbar toggler icon color */
+.navbar-toggler {
+    border-color: #ddd; /* Color of the toggler border */
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%23fff' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    /* Custom icon color */
+}
+
+/* Footer styling for consistency */
+.footer {
+    background-color: #333; /* Match the navbar color */
+    color: #fff; /* White text color */
+}
+
+
+/* Full Body Background */
+body {
+    background-color: #ffff00; /* yellow background */
+    color: #1a1a1a; /* dark grey text for better contrast and readability */
+    font-family: Arial, sans-serif; /* consistent font family */
+}
+
+/* Text Background */
+.text-background {
+    background-color: #1a1a1a; /* dark grey background for text */
+    color: #ffffff; /* white text color */
+    padding: 10px; /* padding inside the text background */
+    border-radius: 5px; /* rounded corners for text background */
+}
+
+/* Make images within containers not exceed their container */
+.container img, .custom-container img {
+    max-width: 100%; /* ensures images are responsive and don't overflow */
+    height: auto; /* maintain aspect ratio */
+}
+
